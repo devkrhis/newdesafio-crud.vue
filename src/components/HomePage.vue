@@ -1,7 +1,7 @@
 <template>
     <div>
-        <table>
-            <tr>
+        <table id="generalControlOfTables">
+            <tr class="header">
                 <td> Code </td>
                 <td> Name </td>
                 <td> Age </td>
@@ -127,8 +127,10 @@ export default {
 
 <style scoped>
 
-table {
+#generalControlOfTables {
     border: 1px solid black;
+    flex-wrap: wrap;
+    
 }
 
 .btn {
